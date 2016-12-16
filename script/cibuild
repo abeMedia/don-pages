@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+bundle exec rubocop -S -D
+bundle exec gem build don-pages.gemspec
