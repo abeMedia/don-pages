@@ -1,0 +1,22 @@
+language: ruby
+rvm:
+  - 2.3.1
+
+before_install: gem install bundler # update bundler.
+script: "script/cibuild"
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+notifications:
+  email: false
+
+deploy:
+  gem: don-pages
+  provider: rubygems
+  api_key: $RUBYGEMS_KEY
+  on:
+    tags: true
+
+cache: bundler
+sudo: false
