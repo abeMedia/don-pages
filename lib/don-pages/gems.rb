@@ -13,7 +13,7 @@ module DonPages
     # Assets
     "jekyll-assets" => "2.2.8",
     "autoprefixer-rails" => "6.5.4",
-    "less-execjs" => "2.6.0.3",
+    "less-execjs" => "2.6.0.4",
     "uglifier" => "3.0.4",
     "mini_magick" => "4.6.0",
     "image_optim" => "0.24.1",

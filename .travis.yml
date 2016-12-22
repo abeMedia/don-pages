@@ -18,7 +18,7 @@ deploy:
   on:
     tags: true
 
-after_deploy: curl -s $DOCKER_TRIGGER_URL
+after_deploy: curl -s -X POST $DOCKER_TRIGGER_URL
 
 cache: bundler
 sudo: false
