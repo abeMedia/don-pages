@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require File.expand_path("../lib/don-pages/assets", __FILE__)
 require File.expand_path("../lib/don-pages/gems", __FILE__)
 require File.expand_path("../lib/don-pages/version", __FILE__)
 
@@ -19,6 +20,10 @@ Gem::Specification.new do |s|
 
   DonPages::GEMS.each do |gem, version|
     s.add_dependency(gem, "= #{version}")
+  end
+
+  DonPages::ASSETS.each do |asset, version|
+    s.add_dependency("rails-assets-#{asset}", "= #{version}")
   end
 
   s.add_development_dependency("rubocop", "~> 0.46")
