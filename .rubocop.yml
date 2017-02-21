@@ -2,7 +2,6 @@ Style/AlignHash:
   SupportedLastArgumentHashStyles: always_ignore
 
 Style/StringLiterals:
-  EnforcedStyle: double_quotes
   Severity: error
 
 Style/FileName:
