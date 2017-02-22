@@ -22,9 +22,9 @@ Gem::Specification.new do |s|
     s.add_dependency(gem, "= #{version}")
   end
 
-  DonPages::ASSETS.each do |asset, version|
-    s.add_dependency("rails-assets-#{asset}", "= #{version}")
-  end
+  # DonPages::ASSETS.each do |asset, version|
+  #  s.add_dependency("rails-assets-#{asset}", "= #{version}")
+  # end
 
   s.add_development_dependency('rubocop', '~> 0.47')
   s.add_development_dependency('rake', '~> 0')

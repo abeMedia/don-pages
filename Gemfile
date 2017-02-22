@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 gemspec
 
 source 'https://rails-assets.org' do
-  DonPages::ASSETS.each do |asset, _|
-    gem "rails-assets-#{asset}"
+  DonPages::ASSETS.each do |asset, version|
+    gem "rails-assets-#{asset}", version
   end
 end
