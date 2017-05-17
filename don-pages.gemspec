@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require File.expand_path('../lib/don-pages/assets', __FILE__)
 require File.expand_path('../lib/don-pages/gems', __FILE__)
 require File.expand_path('../lib/don-pages/version', __FILE__)
