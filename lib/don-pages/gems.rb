@@ -4,7 +4,7 @@ module DonPages
   GEMS = {
     # Jekyll
     'jekyll' => '3.4.3',
-    'html-proofer' => '3.6.0',
+    'html-proofer' => '3.7.0',
 
     # Misc
     'kramdown' => '1.13.2',
@@ -13,8 +13,8 @@ module DonPages
 
     # Assets
     'jekyll-assets' => '2.2.8',
-    'autoprefixer-rails' => '7.1.0',
-    'uglifier' => '3.0.4',
+    'autoprefixer-rails' => '7.1.1',
+    'uglifier' => '3.2.0',
     'mini_magick' => '4.7.0',
     'image_optim' => '0.24.3',
     # 'image_optim_pack' => '0.3.0.20161206',
