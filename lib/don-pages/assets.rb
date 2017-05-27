@@ -8,6 +8,6 @@ module DonPages
     'bootstrap' => '3.3.7',
     'fontawesome' => '4.7.0',
     'owl.carousel' => '2.2.1',
-    'jquery-gcse' => '0.2.0'
+    'jquery-gcse' => '0.3.0'
   }.freeze
 end
